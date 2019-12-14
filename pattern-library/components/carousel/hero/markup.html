@@ -1,0 +1,66 @@
+       <section id="content">
+            <div class="hero-block">
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-card">
+                            <h1>A SONG OF ICE AND FIRE TABLETOP MINIATURE GAME</h1>
+                            <h2>Late Pledge Open</h2>
+                            <button class="button button-primary">VIEW MORE<i class="icon icon-arrow-button"></i></button>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <img src="assets/images/content/1600x680.png" />
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-card">
+                            <h1>A SONG OF ICE AND FIRE TABLETOP MINIATURE GAME</h1>
+                            <h2>Late Pledge Open</h2>
+                            <button class="button button-primary">VIEW MORE<i class="icon icon-arrow-button"></i></button>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <img src="assets/images/content/1600x680.png" />
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-card">
+                            <h1>A SONG OF ICE AND FIRE TABLETOP MINIATURE GAME</h1>
+                            <h2>Late Pledge Open</h2>
+                            <button class="button button-primary">VIEW MORE<i class="icon icon-arrow-button"></i></button>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <img src="assets/images/content/1600x680.png" />
+                      </div>
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="icon icon-arrow-next"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="icon icon-arrow-previous"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- initiate swiper -->
+        <script type="text/javascript">
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoplay: {
+                delay: 5000,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                renderBullet: function (index, className) {
+                    return '<span class="' + className + '"></span>';
+                },
+            },
+        });            
+        </script>

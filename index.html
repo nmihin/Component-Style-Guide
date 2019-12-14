@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+
+        <meta charset="utf-8" />
+
+        <meta name="viewport" content="width=device-width">
+        <meta name="format-detection" content="telephone=no" />
+
+        <title>Astrum - A lightweight pattern library for any project</title>
+      	<meta name="description" content="Include in your web projects with a single-command, manage components and groups easily and provide well documented pattern libraries for your clients and colleagues." />
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@getastrum">
+        <meta name="twitter:creator" content="@nodivide">
+        <meta name="twitter:title" content="Astrum - A lightweight pattern library for any project">
+        <meta name="twitter:description" content="Include in your web projects with a single-command, manage components and groups easily and provide well documented pattern libraries for your clients and colleagues.">
+        <meta name="twitter:image" content="http://nd-bin.imgix.net/astrum/astrum-share-image.jpg?q=50&amp;w=1596&amp;fit=max&amp;dpr=2">
+
+        <meta property="og:title" content="Astrum - A lightweight pattern library for any project" />
+        <meta property="og:description" content="Include in your web projects with a single-command, manage components and groups easily and provide well documented pattern libraries for your clients and colleagues." />
+        <meta property="og:type" content="product" />
+        <meta property="og:url" content="http://getastrum.com" />
+        <meta property="og:image" content="http://nd-bin.imgix.net/astrum/astrum-share-image.jpg?q=50&amp;w=1596&amp;fit=max&amp;dpr=2" />
+
+        <link rel="stylesheet" href="https://i.icomoon.io/public/b9475f491e/cmon/style.css">
+        <link rel="stylesheet" href="/assets/css/dist/site/all.css">
+
+        <script>
+            document.documentElement.className = document.documentElement.className.replace("no-js","js");
+        </script>
+
+        <script src="https://use.typekit.net/prk5aou.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+        <link rel="shortcut icon" type="image/png" href="/assets/favicon.png" />
+    </head>
+    <body data-app="homepage">
+
+        <div class="site-container">
+
+            <header class="site-header">
+
+                <nav class="nav nav--primary nav--inverted" v-sticky="nav--fixed" anchor=".site-header" id="primary-nav">
+                    <div class="logo  logo--small">Astrum</div>
+
+                    <a href="#" class="nav__toggle" v-toggle="primary-nav"><span class="icon icon--menu"></span>Menu</a>
+
+                    <ul class="nav__items">
+                        <li class="nav__item"><a class="nav__link" href="#what-is-it">What is it?</a></li>
+                        <li class="nav__item"><a class="nav__link" href="https://github.com/NoDivide/astrum" target="_blank">Documentation</a></li>
+                        <li class="nav__item"><a class="nav__link" href="https://github.com/NoDivide/astrum/projects/2" target="_blank">Development Roadmap</a></li>
+                        <li class="nav__item"><a class="nav__link" href="https://www.npmjs.com/package/astrum" target="_blank">View NPM package</a></li>
+                        <li class="nav__item"><a class="nav__link" href="https://github.com/NoDivide/astrum" target="_blank">View on GitHub</a></li>
+                        <li class="nav__item"><a class="nav__link" href="https://github.com/NoDivide/astrum/issues" target="_blank">Help & Support</a></li>
+                    </ul>
+                </nav>
+
+                <section class="intro">
+                    <h2 class="intro__title logo logo--large logo--inverted logo--flare">Astrum</h2>
+                    <div class="intro__body">
+                        <p>A lightweight pattern library for any web project</p>
+                    </div>
+                    <div class="intro__actions">
+                        <a class="btn btn--inverted btn--icon" v-show-modal="video"><span class="icon icon--play"></span> Watch an Introduction</a>
+                        <a href="https://github.com/NoDivide/astrum#getting-started" class="btn btn--primary" target="_blank">Install Astrum<span v-if="version" v-text="' v' + version"></span></a>
+                    </div>
+                </section>
+
+            </header>
+
+
+            <section class="section  section--text-block" id="what-is-it">
+
+                <h2 class="section__title">What is it?</h2>
+
+                <div class="section__body">
+                    <p>Astrum is a lightweight pattern library designed to be included with any web project.</p>
+                    <p>It's non-opinionated and doesn't expect you to write your markup or code in any particular way.</p>
+                    <p>An Astrum pattern library comprises of components organised into groups. A component comprises of a rendered sample of a particular element along with a code sample and a (optional) description for the components usage. A group can also have an (optional) description and is used for organisational purposes. You also have the option to add pages of content, for example an introduction page and/or coding guidelines specific to your project.</p>
+                    <p>
+                        <a href="/pattern-library/" class="btn  btn--reveal" target="_blank">View a demo <span class="icon icon--arrow"></span></a>
+                    </p>
+                </div>
+
+            </section>
+
+
+            <div class="divider">
+                <img src="/assets/images/site/divider.png" alt="page divider" class="divider__image">
+            </div>
+
+
+            <section class="section  section--centered  section--tabs">
+                <div class="section__row">
+                    <h2 class="section__title">Why use Astrum?</h2>
+
+                    <div class="section__body">
+
+                        <nav class="nav nav--tabs">
+                            <ul class="nav__items">
+                                <li class="nav__item  tab  tab--one  active">
+                                    <a href="#tab-theme" class="nav__link" v-show-tab="theme" container="browser-tabs">
+                                        <div class="tab__icon">
+                                            <span class="icon icon--theme"></span>
+                                        </div>
+                                        <h3 class="tab__title">Theme to match your brand</h3>
+                                        <p class="tab__body">
+                                            Astrum includes simple customisation so that you may theme your pattern libraries to compliment their companion projects.
+                                        </p>
+                                    </a>
+                                </li>
+
+                                <li class="nav__item  tab  tab--two">
+                                    <a href="#tab-responsive" class="nav__link" v-show-tab="responsive" container="browser-tabs">
+                                        <div class="tab__icon">
+                                            <span class="icon icon--responsive"></span>
+                                        </div>
+                                        <h3 class="tab__title">Responsive with intelligent messaging</h3>
+                                        <p class="tab__body">
+                                            Astrum is fully responsive and has the facility to detect when one of your components is hidden at different resolutions, presenting a meaningful message.
+                                        </p>
+                                    </a>
+                                </li>
+
+                                <li class="nav__item  tab  tab--three">
+                                    <a href="#tab-feedback" class="nav__link" v-show-tab="feedback" container="browser-tabs">
+                                        <div class="tab__icon">
+                                            <span class="icon icon--helpers"></span>
+                                        </div>
+                                        <h3 class="tab__title">Guided feedback</h3>
+                                        <p class="tab__body">
+                                            Astrum provides helpful feedback as you go. Add a new component and it tells you where you need to go next.
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="screenshots" id="browser-tabs">
+                            <div id="tab-theme" class="tab-pane active">
+                                <img src="http://nd-bin.imgix.net/astrum/theme.jpg?q=75" alt=" "/>
+                            </div>
+                            <div id="tab-responsive" class="tab-pane">
+                                <img src="http://nd-bin.imgix.net/astrum/responsive.jpg?q=75" alt=" "/>
+                            </div>
+                            <div id="tab-feedback" class="tab-pane">
+                                <img src="http://nd-bin.imgix.net/astrum/guided-feedback.jpg?q=75" alt=" "/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section  section--centered  section--highlighted  section--terminal">
+                <div class="section__row">
+                    <header class="section__header">
+                        <div class="section__icon">
+                            <span class="icon  icon--command"></span>
+                        </div>
+                        <h2 class="section__title">Intuitive management from the command-line.</h2>
+                        <p>
+                            Astrum comes bundled with a command-line tool that allows you to easily manage components and groups through intuitive feedbank and prompts.
+                        </p>
+                    </header>
+
+                    <div class="section__body">
+
+                        <nav class="nav nav--tabs">
+                            <ul class="nav__items">
+                                <li class="nav__item tab  tab--small active">
+                                    <a href="#tab-install" class="nav__link" v-show-tab="install" container="terminal-tabs">
+                                        <div class="tab__icon">.01</div>
+                                        <h3 class="tab__title">Single-command install</h3>
+                                    </a>
+                                </li>
+
+                                <li class="nav__item  tab  tab--small">
+                                    <a href="#tab-manage" class="nav__link" v-show-tab="manage" container="terminal-tabs">
+                                        <div class="tab__icon">.02</div>
+                                        <h3 class="tab__title">Manage components</h3>
+                                    </a>
+                                </li>
+
+                                <li class="nav__item  tab  tab--small">
+                                    <a href="#tab-update" class="nav__link" v-show-tab="update" container="terminal-tabs">
+                                        <div class="tab__icon">.03</div>
+                                        <h3 class="tab__title">Keep up-to-date</h3>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="terminal" id="terminal-tabs">
+                            <div class="terminal__header">
+                                <div class="terminal__button"></div>
+                                <div class="terminal__button"></div>
+                                <div class="terminal__button"></div>
+                            </div>
+                            <div class="terminal__body">
+                                <div id="tab-install" class="tab-pane active">
+                                    <span class="mono">$ npm install -g astrum</span>
+                                    <span class="mono">$ cd project-folder</span>
+                                    <span class="mono">$ astrum init ./public/library</span>
+                                    <span class="mono"> </span>
+                                    <span class="mono mono--no-wrap mono--grey">----------------------------------------------------------------</span>
+                                    <span class="mono mono--green">&#10003; Pattern library initialized successfully.</span>
+                                    <span class="mono mono--no-wrap mono--grey">----------------------------------------------------------------</span>
+                                    <span class="mono"> </span>
+                                    <span class="mono mono--no-wrap mono--yellow">To get started add your first component using:</span>
+                                    <span class="mono"> </span>
+                                    <span class="mono mono--no-wrap mono--yellow">$ astrum new [group_name/component_name]</span>
+                                    <span class="mono"> </span>
+                                    <span class="mono mono--limit mono--yellow">To customise your pattern library locate your data.json file in ./public/library/ and add your project details.</span>
+                                    <span class="mono"></span>
+                                </div>
+                                <div id="tab-manage" class="tab-pane">
+                                    <span class="mono">$ astrum new btns/default</span>
+                                    <span class="mono"> </span>
+                                    <span class="mono chalk-grey">New component details:</span>
+                                    <span class="mono mono--no-wrap mono--grey">----------------------------------------------------------------</span>
+                                    <span class="mono mono--grey">Component group: btns</span>
+                                    <span class="mono mono--grey">Component name: default</span>
+                                    <span class="mono">? Component title: <span class="mono mono--inline mono--blue">Default</span></span>
+                                    <span class="mono">? Component width: <span class="mono mono--inline mono--blue">Full width</span></span>
+                                    <span class="mono"> </span>
+                                    <span class="mono mono--grey">Component options:</span>
+                                    <span class="mono mono--no-wrap mono--grey">----------------------------------------------------------------</span>
+                                    <span class="mono">? Apply a dark background to the code sample? <span class="mono mono--inline mono--blue">No</span></span>
+                                    <span class="mono">? Select component position in the "btns" group: <span class="mono mono--inline mono--blue">Position first</span></span>
+                                    <span class="mono"> </span>
+                                    <span class="mono mono--no-wrap mono--grey">----------------------------------------------------------------</span>
+                                    <span class="mono mono--green">&#10003; Pattern library data saved successfully.</span>
+                                    <span class="mono mono--no-wrap mono--grey">----------------------------------------------------------------</span>
+                                    <span class="mono"> </span>
+                                    <span class="mono mono--yellow">Add your component markup to ./library/components/btns/default/markup.html</span>
+                                    <span class="mono mono--yellow">Add your component description to ./library/components/btns/default/description.md</span>
+                                    <span class="mono"> </span>
+                                </div>
+                                <div id="tab-update" class="tab-pane">
+                                    <span class="mono">$ astrum update</span>
+                                    <span class="mono"> </span>
+                                    <span class="mono mono--no-wrap mono--grey">----------------------------------------------------------------</span>
+                                    <span class="mono mono--green">&#10003; Pattern library successfully updated from 1.4.5 to 1.5.2.</span>
+                                    <span class="mono mono--no-wrap mono--grey">----------------------------------------------------------------</span>
+                                    <span class="mono"> </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section  section--split">
+
+                <div class="section__col">
+                    <div class="section__body">
+                        <span class="icon icon--documentation"></span>
+                        <h2 class="section__title">Documentation</h2>
+                        <p>
+                            We’ve created full documentation for Astrum, which is updated and stored on GitHub.
+                        </p>
+                        <a href="https://github.com/NoDivide/astrum" class="btn  btn--inverted  btn--reveal" target="_blank">View on GitHub <span class="icon icon--arrow"></span></a>
+                    </div>
+                </div>
+
+                <div class="section__col">
+                    <div class="section__body">
+                        <span class="icon icon--help"></span>
+                        <h2 class="section__title">Help & Support</h2>
+                        <p>
+                            We welcome anyone and everyone to contribute to the project and help us make Astrum as versatile as possible. We’ve created guidelines for submitting bug and feature requests on GitHub.
+                        </p>
+                        <a href="https://github.com/NoDivide/astrum" class="btn  btn--inverted  btn--reveal" target="_blank">View on GitHub <span class="icon icon--arrow"></span></a>
+                        <a href="https://github.com/NoDivide/astrum/projects/2" class="btn  btn--inverted  btn--primary" target="_blank">Development Roadmap</a>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <footer class="site-footer">
+                <div class="section__row">
+
+                    <div class="site-footer__legal">
+                        <p>&copy; Copyright 2015 - 2016 No Divide Studio Ltd</p>
+                    </div>
+
+                    <nav class="nav nav--footer  site-footer__nav">
+                        <ul class="nav__items">
+                            <li class="nav__item">
+                                <a href="http://nodividestudio.com/our-work" target="_blank" class="nav__link">Our Work</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="http://nodividestudio.com/what-we-do" target="_blank" class="nav__link">What We Do</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="http://nodividestudio.com/who-we-are" target="_blank" class="nav__link">Who We Are</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="http://nodividestudio.com/our-journal" target="_blank" class="nav__link">Our Journal</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="http://nodividestudio.com/get-in-touch" target="_blank" class="nav__link">Get in Touch</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="site-footer__logo">
+                        <a href="http://nodividestudio.com" target="_blank" class="logo logo--no-divide"></a>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+
+        <astrum-modal identifier="video">
+            <div class="modal__content">
+                <iframe src="https://player.vimeo.com/video/172391925" width="100%" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+        </astrum-modal>
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-55652975-2', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+        <script src="/assets/js/dist/site/all.js"></script>
+    </body>
+</html>

@@ -1,0 +1,572 @@
+{
+    "project_logo": "assets/images/content/logo-full-color.png",
+    "project_favicon": "favicon.ico",
+    "project_name": "CMON",
+    "project_url": "http://cmon.com",
+    "client_url": "http://cmon.com",
+    "creators": [
+        {
+            "name": "Ryan Taylor",
+            "url": "http://twitter.com/ryanhavoc"
+        },
+        {
+            "name": "Dan Edwards",
+            "url": "http://twitter.com/de"
+        },
+        {
+            "name": "Matt West",
+            "url": "http://twitter.com/mattantwest"
+        }
+    ],
+    "theme": {
+        "border_color": "#E0E6ED",
+        "highlight_color": "#F9FAFC",
+        "brand_color": "#3C7189",
+        "background_color": "#FFFFFF",
+        "code_highlight_theme": "github",
+        "override_code_highlight_bg": "#F9FAFC",
+        "sample_dark_background": "#442179",
+        "show_project_name": false,
+        "show_version": true,
+        "max_width": 1200,
+        "titles": {
+            "library_title": "Pattern Library",
+            "pages_title": "Overview",
+            "components_title": "Components"
+        }
+    },
+    "assets": {
+        "css": [
+            "../assets/css/dist/site/all.css",
+            "../assets/css/dist/astrum/all.css"
+        ],
+        "js": [
+            "../assets/js/dist/astrum/all.js"
+        ]
+    },
+    "font_libraries": {
+        "typekit_code": "prk5aou",
+        "typography_web_fonts": null,
+        "google_web_fonts": null
+    },
+    "content": {
+        "show_first_page_on_load": true,
+        "title": "Overview",
+        "pages": [
+            {
+                "name": "introduction",
+                "title": "Introduction",
+                "file": "./pages/intro.html"
+            }
+        ]
+    },
+    "groups": [
+        {
+            "name": "branding",
+            "title": "Branding",
+            "components": [
+                {
+                    "group": "branding",
+                    "name": "color-scheme",
+                    "title": "Colour Scheme",
+                    "type": "colors",
+                    "colors": [
+                        "#ffb20e,#BD665C,#1f0c3b",
+                        "#ffb20e,#BD665C",
+                        "#BD665C,#1f0c3b",
+                        "#000000,#ffffff"
+                    ]
+                },
+                {
+                    "group": "branding",
+                    "name": "pantone",
+                    "title": "Pantone",
+                    "type": "colors",
+                    "colors": [
+                        "#ffb20e,#ffc94e,#ffd67d,#ffe1a5,#ffeecf",
+                        "#431e75,#5c4187,#78649e,#9a8bb8,#c4bdd7"
+                    ]
+                },
+                {
+                    "group": "branding",
+                    "name": "logo-full-color",
+                    "title": "Logo Full Color",
+                    "width": "half"
+                },
+                {
+                    "group": "branding",
+                    "name": "logo-full-color-alt",
+                    "title": "Logo Full Color Alt",
+                    "width": "half"
+                },
+                {
+                    "group": "branding",
+                    "name": "logo-one-color",
+                    "title": "Logo One Color",
+                    "width": "half"
+                },
+                {
+                    "group": "branding",
+                    "name": "icons-header",
+                    "title": "Icons Header"
+                },
+                {
+                    "group": "branding",
+                    "name": "icons-footer",
+                    "title": "Icons Footer"
+                },
+                {
+                    "group": "branding",
+                    "name": "icons-all",
+                    "title": "Icons All"
+                }
+            ]
+        },
+        {
+            "name": "carousel",
+            "title": "Carousel",
+            "components": [
+                {
+                    "group": "carousel",
+                    "name": "hero",
+                    "title": "Hero Carousel",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                }
+            ]
+        },
+        {
+            "name": "typography",
+            "title": "Typography",
+            "components": [
+                {
+                    "group": "typography",
+                    "name": "regular",
+                    "title": "Regular",
+                    "width": "half"
+                },
+                {
+                    "group": "typography",
+                    "name": "black",
+                    "title": "Black",
+                    "width": "half"
+                },
+                {
+                    "group": "typography",
+                    "name": "italic",
+                    "title": "Italic",
+                    "width": "half"
+                },
+                {
+                    "group": "typography",
+                    "name": "light",
+                    "title": "Light",
+                    "width": "half"
+                },
+                {
+                    "group": "typography",
+                    "name": "medium",
+                    "title": "Medium",
+                    "width": "half"
+                },
+                {
+                    "group": "typography",
+                    "name": "semibold",
+                    "title": "Semibold",
+                    "width": "half"
+                },
+                {
+                    "group": "typography",
+                    "name": "thin",
+                    "title": "Thin",
+                    "width": "half"
+                },
+                {
+                    "group": "typography",
+                    "name": "semibold",
+                    "title": "Semibold",
+                    "width": "half"
+                },
+                {
+                    "group": "typography",
+                    "name": "bold",
+                    "title": "Bold",
+                    "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "buttons",
+            "title": "Buttons",
+            "components": [
+                {
+                    "group": "buttons",
+                    "name": "primary",
+                    "title": "Primary Button",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                },
+                {
+                    "group": "buttons",
+                    "name": "icon",
+                    "title": "Icon Button",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                },
+                {
+                    "group": "buttons",
+                    "name": "back",
+                    "title": "Back Button",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                },
+                {
+                    "group": "buttons",
+                    "name": "ghost",
+                    "title": "Ghost Button",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true
+                    }
+                },
+                {
+                    "group": "buttons",
+                    "name": "ghost-icon",
+                    "title": "Ghost Icon",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true
+                    }
+                },
+                {
+                    "group": "buttons",
+                    "name": "top-button",
+                    "title": "Top Button",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                }
+            ]
+        },
+        {
+            "name": "navigation",
+            "title": "Navigation",
+            "components": [
+                {
+                    "group": "navigation",
+                    "name": "header",
+                    "title": "Header Navigation"
+                },
+                {
+                    "group": "navigation",
+                    "name": "footer",
+                    "title": "Footer Navigation"
+                }
+            ]
+        },
+        {
+            "name": "catalogue",
+            "title": "Catalogue",
+            "components": [
+                {
+                    "group": "catalogue",
+                    "name": "article-tile",
+                    "title": "Article Tile"
+                },
+                                {
+                    "group": "catalogue",
+                    "name": "all-articles",
+                    "title": "All articles"
+                },
+
+                {
+                    "group": "catalogue",
+                    "name": "article",
+                    "title": "Article"
+                },
+                {
+                    "group": "catalogue",
+                    "name": "annual-report",
+                    "title": "Annual Report"
+                },
+                {
+                    "group": "catalogue",
+                    "name": "spotlight-list",
+                    "title": "Spotlight List"
+                },
+                 {
+                    "group": "catalogue",
+                    "name": "featured-games",
+                    "title": "Featured Games"
+                },
+                 {
+                    "group": "catalogue",
+                    "name": "promoted-faq-pages",
+                    "title": "Promoted FAQ Pages"
+                },
+                  {
+                    "group": "catalogue",
+                    "name": "special-offers",
+                    "title": "Special Offers"
+                },
+                  {
+                    "group": "catalogue",
+                    "name": "four-column",
+                    "title": "Four Column"
+                },
+                   {
+                    "group": "catalogue",
+                    "name": "four-column2",
+                    "title": "Four Column2"
+                },
+                   {
+                    "group": "catalogue",
+                    "name": "four-column3",
+                    "title": "Four Column3"
+                },
+                     {
+                    "group": "catalogue",
+                    "name": "related-products",
+                    "title": "Related Products"
+                },
+                     {
+                    "group": "catalogue",
+                    "name": "cmon-store",
+                    "title": "CMON STORE"
+                },
+                {
+                    "group": "catalogue",
+                    "name": "double-column",
+                    "title": "Double Column"
+                },     
+                 {
+                    "group": "catalogue",
+                    "name": "whats-new",
+                    "title": "What's New"
+                },
+                 {
+                    "group": "catalogue",
+                    "name": "related-articles",
+                    "title": "Related Articles"
+                },
+                {
+                    "group": "catalogue",
+                    "name": "charity-list",
+                    "title": "Charity List"
+                },
+                  {
+                    "group": "catalogue",
+                    "name": "cmon-in-numbers",
+                    "title": "CMON in Numbers"
+                },
+                {
+                    "group": "catalogue",
+                    "name": "related-news",
+                    "title": "Related News"
+                },
+                {
+                    "group": "catalogue",
+                    "name": "history",
+                    "title": "History"
+                },
+                {
+                    "group": "catalogue",
+                    "name": "number-tiles",
+                    "title": "Number Tile"
+                },
+                {
+                    "group": "catalogue",
+                    "name": "two-column",
+                    "title": "Our People"
+                },
+                {
+                    "group": "catalogue",
+                    "name": "our-people",
+                    "title": "Our People"
+                },
+                {
+                    "group": "catalogue",
+                    "name": "forum",
+                    "title": "Forum"
+                },
+                   {
+                    "group": "catalogue",
+                    "name": "legion",
+                    "title": "Legion"
+                },
+                   {
+                    "group": "catalogue",
+                    "name": "announcments",
+                    "title": "Announcments"
+                },
+                {
+                    "group": "catalogue",
+                    "name": "featured-product-tile",
+                    "title": "Featured Product Tile"
+                },
+                {
+                    "group": "catalogue",
+                    "name": "download-tile",
+                    "title": "Download Tile"
+                },
+                {
+                    "group": "catalogue",
+                    "name": "article-investor",
+                    "title": "Article Investor"
+                },
+                {
+                    "group": "catalogue",
+                    "name": "related-tiles",
+                    "title": "Related Tiles"
+                },
+                {
+                    "group": "catalogue",
+                    "name": "product-hero",
+                    "title": "Product Hero"
+                },
+                {
+                    "group": "catalogue",
+                    "name": "gallery",
+                    "title": "Gallery"
+                },
+                {
+                    "group": "catalogue",
+                    "name": "product-mobile-app",
+                    "title": "Product Mobile App"
+                },
+                {
+                    "group": "catalogue",
+                    "name": "downloads",
+                    "title": "Downloads"
+                },
+                {
+                    "group": "catalogue",
+                    "name": "breadcrumb",
+                    "title": "Breadcrumb Navigation"
+                }                
+            ]
+        },
+        {
+            "name": "forms",
+            "title": "Forms",
+            "components": [
+                {
+                    "group": "forms",
+                    "name": "address",
+                    "title": "Address"
+                },
+                {
+                    "group": "forms",
+                    "name": "address2",
+                    "title": "Address 2"
+                },
+                {
+                    "group": "forms",
+                    "name": "order_summary",
+                    "title": "Order Summary"
+                },
+                {
+                    "group": "forms",
+                    "name": "profile",
+                    "title": "Profile"
+                },
+                 {
+                    "group": "forms",
+                    "name": "my_account",
+                    "title": "My Account"
+                },
+                 {
+                    "group": "forms",
+                    "name": "profile2",
+                    "title": "Profile2"
+                },
+                 {
+                    "group": "forms",
+                    "name": "shipping_address_info",
+                    "title": "Shipping Address Info"
+                },
+
+                {
+                    "group": "forms",
+                    "name": "join_the_legion",
+                    "title": "Join the Legion"
+                },
+                {
+                    "group": "forms",
+                    "name": "address_modal",
+                    "title": "Address Modal"
+                },
+                {
+                    "group": "forms",
+                    "name": "billing_address",
+                    "title": "Billing Address"
+                },
+                 {
+                    "group": "forms",
+                    "name": "billing_info",
+                    "title": "Billing Info"
+                },
+                  {
+                    "group": "forms",
+                    "name": "shipping_address",
+                    "title": "Shipping Address"
+                },
+                  {
+                    "group": "forms",
+                    "name": "payment_method",
+                    "title": "Payment Method"
+                },
+                  {
+                    "group": "forms",
+                    "name": "profile_details",
+                    "title": "Profile Details"
+                },
+                 {
+                    "group": "forms",
+                    "name": "shipping_address2",
+                    "title": "Shipping address"
+                },
+                 {
+                    "group": "forms",
+                    "name": "submit_event_modal2",
+                    "title": "Submit Event Modal 2"
+                },
+                   {
+                    "group": "forms",
+                    "name": "submit_event_modal1",
+                    "title": "Submit Event Modal 1"
+                },
+                   {
+                    "group": "forms",
+                    "name": "store_name",
+                    "title": "Store Name"
+                },
+                    {
+                    "group": "forms",
+                    "name": "request_or_discuss_terms",
+                    "title": "Request of Discuss Terms"
+                },
+                     {
+                    "group": "forms",
+                    "name": "send_us_a_message",
+                    "title": "Send us a message"
+                }
+
+                
+
+
+                     
+                             
+            ]
+        }
+    ],
+    "version": "1.8.0"
+}

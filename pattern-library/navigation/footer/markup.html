@@ -1,0 +1,59 @@
+	<footer id="footer">
+		<div class="row">
+			<div class="footer-logo col-2">
+				<img src="../pattern-library/assets/images/content/logo-full-color-alt.png" />
+			</div>
+			<ul class="footer-list-style col-3">
+			  <li>
+			    <a href="https://support.cmon.com" target="_blank">Customer Service</a> </li>
+			  <li>
+			    <a href="/en/contact">Contact</a> </li>
+			  <li>
+			    <a href="/en/charity">Charity</a> </li>
+			  <li>
+			    <a href="/en/community">Community</a> </li>
+			  <li>
+			    <a href="/en/press">Press</a> </li>
+			  <li>
+			    <a href="/en/about">About</a> </li>
+			  <li>
+			    <a href="/en/terms">Terms &amp; Conditions</a> </li>
+			  <li>
+			    <a href="/en/privacy">Privacy Policy</a> </li>
+			</ul>
+			<div class="footer-search col-4">
+				<h2 class="title">Follow Us</h2>
+				<form class="form-inline">
+		            <div class="form-group">
+		                <input type="email" class="form-control" placeholder="Enter email address">
+		                <button class="button button-primary">Sign Up</button>
+		            </div>
+		        </form>
+			</div>
+			<div class="footer-socials col-3">
+				<h2 class="title">Follow Us</h2>
+				<a href="">
+					<span class="icon icon-facebook"></span>
+				</a>
+				<a href="">
+					<span class="icon icon-twitter"></span>
+				</a>
+				<a href="">
+					<span class="icon icon-instagram"></span>
+				</a>
+				<a href="">
+					<span class="icon icon-youtube"></span>
+				</a>
+			</div>
+		</div>
+		<div class="copyright"><p>All rights reserved © CMON.COM - <span id="year"></span></p></div>
+	</footer>
+</div>
+
+<script>
+	window.onload = function() {
+		var d = new Date();
+		var n = d.getFullYear();
+		document.getElementById("year").innerHTML = n;
+	};
+</script>

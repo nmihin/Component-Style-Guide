@@ -1,0 +1,87 @@
+<div class="related-tiles">
+  <h2 class="related-tiles-title">RELATED TILES</h2>
+  <div class="related-tiles-parallax">
+    <figure class="figure-large">
+        <img src="assets/images/content/1600x680.png" />
+    </figure>
+  </div>
+  <div class="row swiper-container">
+    <div class="card col-6 col-sm-3">
+      <figure class="figure-large">
+      <a href="#">
+        <img class="card-img-top" src="assets/images/content/640x430.png" alt="Card image cap">
+      </a>
+      </figure>
+      <div class="card-block">
+        <h4 class="card-title">Card title</h4>
+        <h5 class="card-subtitle">Card subtitle</h5>
+        <button class="button button-primary">Add to Cart<i class="icon icon-arrow-button"></i></button>
+      </div>
+    </div>
+    <div class="card col-6 col-sm-3">
+      <figure class="figure-large">
+      <a href="#">
+        <img class="card-img-top" src="assets/images/content/640x430.png" alt="Card image cap">
+      </a>
+      </figure>
+      <div class="card-block">
+        <h4 class="card-title">Card title</h4>
+        <h5 class="card-subtitle">Card subtitle</h5>
+        <button class="button button-primary">Add to Cart<i class="icon icon-arrow-button"></i></button>
+      </div>
+    </div>
+    <div class="card col-6 col-sm-3">
+      <figure class="figure-large">
+      <a href="#">
+        <img class="card-img-top" src="assets/images/content/640x430.png" alt="Card image cap">
+      </a>
+      </figure>
+      <div class="card-block">
+        <h4 class="card-title">Card title</h4>
+        <h5 class="card-subtitle">Card subtitle</h5>
+        <button class="button button-primary">Add to Cart<i class="icon icon-arrow-button"></i></button>
+      </div>
+    </div>
+    <div class="card col-6 col-sm-3">
+      <figure class="figure-large">
+      <a href="#">
+        <img class="card-img-top" src="assets/images/content/640x430.png" alt="Card image cap">
+      </a>
+      </figure>
+      <div class="card-block">
+        <h4 class="card-title">Card title</h4>
+        <h5 class="card-subtitle">Card subtitle</h5>
+        <button class="button button-primary">Add to Cart<i class="icon icon-arrow-button"></i></button>
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next">
+      <i class="icon icon-arrow-next"></i>
+    </div>
+    <div class="swiper-button-prev">
+      <i class="icon icon-arrow-previous"></i>
+    </div>
+    </div>
+    <button class="button button-primary right">View All<i class="icon icon-arrow-button"></i></button>
+  </div>
+</div>
+
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      slidesPerGroup: 4,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
